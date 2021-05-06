@@ -20,9 +20,12 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_pb_izbrisi_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString start = "G54\nF100000\n";
     QString end = "G0 M93\nG53 X0 Y0 C=0 G90 G0\nM1\nMSG()\nM30\n";
+    QVector<QPair<QString, QString>> dimensionPairs;
 };
 #endif // MAINWINDOW_H

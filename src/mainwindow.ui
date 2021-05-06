@@ -24,15 +24,15 @@
      </rect>
     </property>
     <property name="text">
-     <string>Dimenzija 1:</string>
+     <string>Visina:</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="le_dimOne">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>10</y>
-      <width>111</width>
+      <width>131</width>
       <height>21</height>
      </rect>
     </property>
@@ -47,15 +47,15 @@
      </rect>
     </property>
     <property name="text">
-     <string>Dimenzija 2:</string>
+     <string>Sirina:</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="le_dimTwo">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>40</y>
-      <width>111</width>
+      <width>131</width>
       <height>21</height>
      </rect>
     </property>
@@ -63,8 +63,8 @@
    <widget class="QPushButton" name="pb_dodaj">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>70</y>
+      <x>70</x>
+      <y>80</y>
       <width>80</width>
       <height>21</height>
      </rect>
@@ -78,7 +78,7 @@
      <rect>
       <x>240</x>
       <y>10</y>
-      <width>191</width>
+      <width>251</width>
       <height>321</height>
      </rect>
     </property>
@@ -91,7 +91,7 @@
      <rect>
       <x>200</x>
       <y>10</y>
-      <width>16</width>
+      <width>21</width>
       <height>16</height>
      </rect>
     </property>
@@ -104,7 +104,7 @@
      <rect>
       <x>200</x>
       <y>40</y>
-      <width>16</width>
+      <width>21</width>
       <height>16</height>
      </rect>
     </property>
@@ -115,14 +115,63 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>129</x>
       <y>310</y>
-      <width>80</width>
+      <width>91</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Generiraj Kod</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_erase">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Izbrisi element broj:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_eraseNum">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>140</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_izbrisi">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Izbrisi</string>
     </property>
    </widget>
   </widget>

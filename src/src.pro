@@ -13,7 +13,8 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    mapbox/shelf-pack.hpp
 
 FORMS += \
     mainwindow.ui
