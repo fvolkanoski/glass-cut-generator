@@ -96,7 +96,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>mm</string>
+     <string>cm</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -109,7 +109,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>mm</string>
+     <string>cm</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">

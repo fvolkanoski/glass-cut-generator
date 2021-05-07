@@ -31,7 +31,7 @@ void MainWindow::on_pb_dodaj_clicked()
 
         if(ui->te_dimenzii->toPlainText() == "")
         {
-            ui->te_dimenzii->setText("Visina: " + ui->le_dimOne->text() + "mm Shirina: " + ui->le_dimTwo->text() + "mm");
+            ui->te_dimenzii->setText("Visina: " + ui->le_dimOne->text() + "cm Shirina: " + ui->le_dimTwo->text() + "cm");
         }
         else
         {
