@@ -66,6 +66,7 @@ void MainWindow::on_pushButton_clicked()
 
         // TODO check dali nozho na 0 e svrten po X ili po Y na pocetok
         out << "G0 M93 C=0.00\n";
+        out << "G1 M92\n";
         out << "G0 X" + dimensionPairs[0].first + "Y0\n";
         out << "G0 M93 C=90.00\n";
         out << "G0 X" + dimensionPairs[0].first + "Y" + dimensionPairs[0].second + "\n";
@@ -73,6 +74,7 @@ void MainWindow::on_pushButton_clicked()
         out << "G0 X0Y" + dimensionPairs[0].second + "\n";
         out << "G0 M93 C=90.00\n";
         out << "G0 X0Y0\n";
+        out << "G1 M92\n";
 
         out << end;
 
